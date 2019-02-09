@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 class BookSharingEntry : ViewController{
     var messages = [Message]()
     
@@ -29,6 +31,9 @@ class BookSharingEntry : ViewController{
     
     @IBAction func findBookButtonPressed(_ sender: Any) {
         //template function for presenting the next view controller if the findBookButton is pressed
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let findViewController = storyboard.instantiateViewController(withIdentifier: "findViewController") as! FindViewController
+        self.present(findViewController, animated: true, completion: nil)
         
     }
     @IBAction func listBookButtonPressed(_ sender: Any) {
