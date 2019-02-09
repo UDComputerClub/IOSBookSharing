@@ -8,10 +8,18 @@
 
 import Foundation
 class BookSharingEntry : ViewController{
+    var messages = [Message]()
+    
     override internal func viewDidLoad() {
         super.viewDidLoad()
+        messages = getMessages()
     }
     
+    func getMessages() -> [Message]{
+        let returnMessages = [Message(text: "Hello World", to: User(), from: User())]
+        //function stub, backend needed for full functionality
+        return returnMessages
+    }
     
     
     @IBAction func newListingButton(_ sender: Any) {

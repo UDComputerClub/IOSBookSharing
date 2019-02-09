@@ -15,6 +15,8 @@
 		57ABBC29220F33FC00916AD1 /* BookSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC28220F33FC00916AD1 /* BookSharingTests.swift */; };
 		57ABBC34220F33FC00916AD1 /* BookSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */; };
 		57ABBC42220F34C000916AD1 /* BookSharingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */; };
+		57ABBC46220F498900916AD1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC45220F498900916AD1 /* Message.swift */; };
+		57ABBC48220F4A2000916AD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC47220F4A2000916AD1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingUITests.swift; sourceTree = "<group>"; };
 		57ABBC35220F33FC00916AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingEntry.swift; sourceTree = "<group>"; };
+		57ABBC45220F498900916AD1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		57ABBC47220F4A2000916AD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				57ABBC13220F33FC00916AD1 /* AppDelegate.swift */,
+				57ABBC47220F4A2000916AD1 /* User.swift */,
+				57ABBC45220F498900916AD1 /* Message.swift */,
 				57ABBC15220F33FC00916AD1 /* ViewController.swift */,
 				57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */,
 				57ABBC17220F33FC00916AD1 /* Main.storyboard */,
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ABBC42220F34C000916AD1 /* BookSharingEntry.swift in Sources */,
+				57ABBC46220F498900916AD1 /* Message.swift in Sources */,
 				57ABBC16220F33FC00916AD1 /* ViewController.swift in Sources */,
+				57ABBC48220F4A2000916AD1 /* User.swift in Sources */,
 				57ABBC14220F33FC00916AD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
