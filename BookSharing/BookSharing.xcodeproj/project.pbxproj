@@ -15,6 +15,8 @@
 		57ABBC29220F33FC00916AD1 /* BookSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC28220F33FC00916AD1 /* BookSharingTests.swift */; };
 		57ABBC34220F33FC00916AD1 /* BookSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */; };
 		57ABBC42220F34C000916AD1 /* BookSharingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */; };
+		C8A2D284220F5DB000AA4497 /* acm_4c_grad_pos.tif in Resources */ = {isa = PBXBuildFile; fileRef = C8A2D282220F5DB000AA4497 /* acm_4c_grad_pos.tif */; };
+		C8A2D285220F5DB000AA4497 /* UD-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A2D283220F5DB000AA4497 /* UD-seal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingUITests.swift; sourceTree = "<group>"; };
 		57ABBC35220F33FC00916AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingEntry.swift; sourceTree = "<group>"; };
+		C8A2D282220F5DB000AA4497 /* acm_4c_grad_pos.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = acm_4c_grad_pos.tif; sourceTree = "<group>"; };
+		C8A2D283220F5DB000AA4497 /* UD-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UD-seal.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		57ABBC12220F33FC00916AD1 /* BookSharing */ = {
 			isa = PBXGroup;
 			children = (
+				C8A2D281220F5DB000AA4497 /* Images */,
 				57ABBC13220F33FC00916AD1 /* AppDelegate.swift */,
 				57ABBC15220F33FC00916AD1 /* ViewController.swift */,
 				57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */,
@@ -127,6 +132,15 @@
 			);
 			path = BookSharingUITests;
 			sourceTree = "<group>";
+		};
+		C8A2D281220F5DB000AA4497 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2D282220F5DB000AA4497 /* acm_4c_grad_pos.tif */,
+				C8A2D283220F5DB000AA4497 /* UD-seal.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -235,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A2D285220F5DB000AA4497 /* UD-seal.png in Resources */,
 				57ABBC1E220F33FC00916AD1 /* LaunchScreen.storyboard in Resources */,
+				C8A2D284220F5DB000AA4497 /* acm_4c_grad_pos.tif in Resources */,
 				57ABBC1B220F33FC00916AD1 /* Assets.xcassets in Resources */,
 				57ABBC19220F33FC00916AD1 /* Main.storyboard in Resources */,
 			);
