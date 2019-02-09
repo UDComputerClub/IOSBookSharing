@@ -18,14 +18,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcj-in-uXZ">
-                                <rect key="frame" x="16" y="20" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Button"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="listBookButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcj-in-uXZ" userLabel="listBookButton">
+                                <rect key="frame" x="16" y="20" width="78" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Button">
+                                    <accessibilityTraits key="traits" button="YES" staticText="YES"/>
+                                </accessibility>
+                                <state key="normal" title="List A Book"/>
+                                <connections>
+                                    <action selector="listBookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xBe-ld-f3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="findBookButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IR-o1-Gy3" userLabel="findBookButton">
+                                <rect key="frame" x="137" y="20" width="100" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="findBookButton" label="findBookButton">
+                                    <accessibilityTraits key="traits" button="YES" staticText="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Find A Book"/>
+                                <connections>
+                                    <action selector="findBookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y0G-1p-Ouj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="newListingButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkg-93-nE1" userLabel="newListingButton">
+                                <rect key="frame" x="255" y="20" width="104" height="30"/>
+                                <state key="normal" title="New Listings"/>
+                                <connections>
+                                    <action selector="newListingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMV-GO-ebR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zkg-93-nE1" firstAttribute="leading" secondItem="1IR-o1-Gy3" secondAttribute="trailing" constant="18" id="Dck-fp-LwH"/>
+                            <constraint firstItem="fcj-in-uXZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cDL-cY-RM7"/>
+                            <constraint firstItem="zkg-93-nE1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fTH-L6-S6P"/>
+                            <constraint firstItem="1IR-o1-Gy3" firstAttribute="leading" secondItem="fcj-in-uXZ" secondAttribute="trailing" constant="43" id="iRo-4N-mkg"/>
+                            <constraint firstItem="fcj-in-uXZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="laG-1Z-Umk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zkg-93-nE1" secondAttribute="trailing" constant="16" id="lyI-1g-1a1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
