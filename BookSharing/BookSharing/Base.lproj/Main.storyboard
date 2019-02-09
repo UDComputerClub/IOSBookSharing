@@ -45,13 +45,33 @@
                                     <action selector="newListingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMV-GO-ebR"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B0R-Yl-NPv">
+                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="messagesLabel" text="Messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-lQ-MZ6" userLabel="messagesLabel">
+                                <rect key="frame" x="146" y="65" width="83" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="messagesLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="B0R-Yl-NPv" firstAttribute="top" secondItem="KOM-lQ-MZ6" secondAttribute="bottom" constant="8" id="C3f-B7-8Oj"/>
                             <constraint firstItem="zkg-93-nE1" firstAttribute="leading" secondItem="1IR-o1-Gy3" secondAttribute="trailing" constant="18" id="Dck-fp-LwH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B0R-Yl-NPv" secondAttribute="bottom" id="FGT-rB-0vt"/>
+                            <constraint firstItem="KOM-lQ-MZ6" firstAttribute="top" secondItem="fcj-in-uXZ" secondAttribute="bottom" constant="15" id="HdA-St-Rkf"/>
+                            <constraint firstItem="KOM-lQ-MZ6" firstAttribute="top" secondItem="1IR-o1-Gy3" secondAttribute="bottom" constant="15" id="Jh5-wN-luO"/>
+                            <constraint firstItem="KOM-lQ-MZ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="N5J-Tk-CGf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KOM-lQ-MZ6" secondAttribute="trailing" constant="146" id="QSD-Jb-6hj"/>
+                            <constraint firstItem="B0R-Yl-NPv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RVx-CB-Xdp"/>
+                            <constraint firstItem="KOM-lQ-MZ6" firstAttribute="top" secondItem="zkg-93-nE1" secondAttribute="bottom" constant="15" id="S22-Cz-IhJ"/>
                             <constraint firstItem="fcj-in-uXZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cDL-cY-RM7"/>
                             <constraint firstItem="zkg-93-nE1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fTH-L6-S6P"/>
                             <constraint firstItem="1IR-o1-Gy3" firstAttribute="leading" secondItem="fcj-in-uXZ" secondAttribute="trailing" constant="43" id="iRo-4N-mkg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B0R-Yl-NPv" secondAttribute="trailing" id="jby-ha-Edb"/>
                             <constraint firstItem="fcj-in-uXZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="laG-1Z-Umk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zkg-93-nE1" secondAttribute="trailing" constant="16" id="lyI-1g-1a1"/>
                         </constraints>
