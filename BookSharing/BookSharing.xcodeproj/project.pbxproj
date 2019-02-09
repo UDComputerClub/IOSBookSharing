@@ -15,13 +15,10 @@
 		57ABBC29220F33FC00916AD1 /* BookSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC28220F33FC00916AD1 /* BookSharingTests.swift */; };
 		57ABBC34220F33FC00916AD1 /* BookSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */; };
 		57ABBC42220F34C000916AD1 /* BookSharingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */; };
-<<<<<<< HEAD
 		C8A2D284220F5DB000AA4497 /* acm_4c_grad_pos.tif in Resources */ = {isa = PBXBuildFile; fileRef = C8A2D282220F5DB000AA4497 /* acm_4c_grad_pos.tif */; };
 		C8A2D285220F5DB000AA4497 /* UD-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A2D283220F5DB000AA4497 /* UD-seal.png */; };
-=======
 		57ABBC46220F498900916AD1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC45220F498900916AD1 /* Message.swift */; };
 		57ABBC48220F4A2000916AD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABBC47220F4A2000916AD1 /* User.swift */; };
->>>>>>> 39e69fe7453d7ef0b23a340fbce0da2942407c77
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +53,10 @@
 		57ABBC33220F33FC00916AD1 /* BookSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingUITests.swift; sourceTree = "<group>"; };
 		57ABBC35220F33FC00916AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ABBC41220F34C000916AD1 /* BookSharingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSharingEntry.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		C8A2D282220F5DB000AA4497 /* acm_4c_grad_pos.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = acm_4c_grad_pos.tif; sourceTree = "<group>"; };
 		C8A2D283220F5DB000AA4497 /* UD-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UD-seal.png"; sourceTree = "<group>"; };
-=======
 		57ABBC45220F498900916AD1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		57ABBC47220F4A2000916AD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
->>>>>>> 39e69fe7453d7ef0b23a340fbce0da2942407c77
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
